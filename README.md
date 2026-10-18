@@ -45,18 +45,6 @@ Widget settings are reachable by middle-clicking the widget on the bar.
 - Drawn with a declarative `ui.label` using the Waycat font, which is what
   makes the `size` setting possible.
 
-## Credits
+## Credits & license
 
-- **Original project: [Waycat](https://github.com/CarloCattano/waycat) by Carlo
-  Cattano.** cpurr is an independent Noctalia port of it: the cat pose art
-  (the Waycat font) and the animation behavior from `catloop.sh` — frame
-  timing, speed curve, sleep logic — both come from there. Not affiliated with
-  the original project.
-- The Waycat font is downloaded from the original repository at install time
-  and is not redistributed in this repository.
-- API patterns borrowed from Noctalia's official bongocat plugin.
-
-## License
-
-MIT — see [LICENSE](LICENSE). The Waycat font remains the property of its
-author, Carlo Cattano.
+Port of [Waycat](https://github.com/CarloCattano/waycat) by Carlo Cattano (pose font + `catloop.sh` timing) — MIT, see [LICENSE](LICENSE).
