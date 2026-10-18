@@ -1,0 +1,29 @@
+# cpurr - a cat that runs in your bar based on CPU usage.
+#
+# The pose art comes from the "Waycat" font by Carlo Cattano:
+# https://github.com/CarloCattano/waycat - install.sh downloads it from
+# upstream, so it is not redistributed with this plugin.
+#
+# Frames in fonts/Waycat.ttf: A-E running, G-N sleeping.
+# Frame delay: clamp(1000 / (4 + cpu%), 30, 250) ms - ported from catloop.sh.
+
+id = "deoxizn/cpurr"
+name = "cpurr"
+version = "0.1.0"
+plugin_api = 12
+author = "deoxizn"
+license = "MIT"
+icon = "cat"
+description = "A cat that runs in your bar based on CPU usage."
+tags = ["fun", "animation", "system"]
+
+[[widget]]
+id = "cat"
+entry = "cpurr.luau"
+
+  [[widget.setting]]
+  key = "size"
+  type = "int"
+  label_key = "settings.size.label"
+  description_key = "settings.size.description"
+  default = 32

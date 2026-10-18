@@ -1,0 +1,8 @@
+{
+  "settings": {
+    "size": {
+      "label": "Cat Size",
+      "description": "Pose art size in px. The bar clips widgets to its thickness, so keep this under it."
+    }
+  }
+}
